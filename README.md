@@ -1,1 +1,4 @@
-# blank-template
+Blank Template
+==============
+
+BaseKit Template

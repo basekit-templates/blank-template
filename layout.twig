@@ -1,0 +1,34 @@
+<!doctype html>
+<html class="no-js" lang="{{ page.seoLang }}">
+
+    <head>
+        {% include "includes/head.twig" %}
+        {% include basekit.headScript %}
+    </head>
+
+    <body class="{{ page.backgroundClass }} {% block class %}{% endblock %}">
+
+        <!-- Container -->
+
+        <div class="site-container">
+
+            <!-- Page Content -->
+
+            <section class="inner-container">
+
+                <!-- Main Widget Zone -->
+                {% block content %}
+                {% endblock %}
+
+            </section>
+
+            <!-- End Page Content -->
+
+        </div><!-- End Container -->
+
+
+        {% include basekit.bodyScript %}
+
+
+    </body>
+</html>
